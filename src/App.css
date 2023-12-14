@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+    font-size: 2.5vw;
+    font-weight: 1000;
+    padding: 1.5vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+table{
+    margin-left: 10%;
+    border-collapse:collapse;
+    width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+td{
+    text-align: center;
+    border: 2px solid #020202;
+    background-color: white;
+    height: 4vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th{
+    background-color: #c4c4c4;
+    color: rgb(0, 0, 0);
+    padding: 1vw;
+    border: 2px solid #020202;
+}
+
+.list-bttn{
+    margin-left: 43%;
+    margin-bottom: 2.5%;
+    border-radius: 0.5vw;
+    background-color: #24b134;
+    color: black;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1vw;
+    padding: 1vw;
+    width: 10vw;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    box-shadow: -0.5em 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+.list-bttn:hover,
+.Add-bttn:hover{
+    background-color: white;
+    color: #13d82a;
+    border: 2px solid #13d82a;
+}
+
+.Add-bttn{
+    margin-left: 1%;
+    border-radius: 0.5vw;
+    background-color: #24b134;
+    color: black;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1vw;
+    padding: 1vw;
+    width: 10vw;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    box-shadow: -0.5em 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.del-bttn{
+    color: red;
+    text-decoration: underline;
 }
